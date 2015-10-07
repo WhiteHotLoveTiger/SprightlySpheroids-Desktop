@@ -1,12 +1,12 @@
 #include "main.h"
-#include "simple.h"
+#include "icon.h"
 
 IMPLEMENT_APP(MyApp)
 
 bool MyApp::OnInit()
 {
-    Simple *simple = new Simple(wxT("Simple"));
-    simple->Show(true);
+    What *what = new What(wxT("My new Window!!!"));
+    what->Show(true);
 
     return true;
 }
